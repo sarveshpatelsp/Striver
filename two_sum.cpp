@@ -8,9 +8,9 @@
             {
                 sum = nums[i] + nums[j]; 
                 if(target == sum){
-                    ans.push_back(i); 
-                    ans.push_back(j); 
-                    break; 
+                 ans.push_back(i); 
+                 ans.push_back(j); 
+                 break; 
                 }
             }
         }
