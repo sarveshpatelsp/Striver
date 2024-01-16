@@ -20,3 +20,5 @@ int main()
     cout << gcd(n1, n2);
     return 0;
 }
+
+// STL function for this problem ->   __gcd(a,b) 
