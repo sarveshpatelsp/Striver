@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 bool palindrome(int n)
 {
     int copy = n;
