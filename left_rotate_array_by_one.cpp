@@ -11,6 +11,7 @@ void left_rotate(int arr[], int n)
     arr[n - 1] = first;
 }
 
+
 int main()
 {
     int n;
