@@ -1,4 +1,5 @@
  vector<int> twoSum(vector<int>& nums, int target) {
+  // Brute Solution
         int sum = 0 ; 
         int n = nums.size(); 
         vector<int>ans; 
@@ -16,3 +17,5 @@
         }
         return ans; 
     }
+
+// This problem has Brute Better Optimal (B B O) Solutions. 
