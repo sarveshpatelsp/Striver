@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 void print(int n)
@@ -19,6 +19,11 @@ int main()
 {
     int n;
     cin >> n;
+    vector<int>v; 
+    for (int i = 0 ; i < n ; i++)
+        cin >> v[i] ;
     print(n);
+    for (int i = 0 ; i < n ; i++)
+        cout << v[i] << " " ; 
     return 0;
 }
