@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 bool check_array(vector<int> &arr, int n)
 {
     for (int i = 1; i < n; i++)
