@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int find_prime(int n)
 {
     int count = 0;
