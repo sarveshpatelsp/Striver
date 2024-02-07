@@ -46,3 +46,4 @@ int main()
 }
 
 // This problem have brute and optimal solution
+// This is second variant of search in rotated sorted arr 
