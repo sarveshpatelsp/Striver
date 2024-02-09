@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 // optimal solution
 int find_min(vector<int> &arr, int n)
 {
