@@ -26,4 +26,4 @@ int main()
     return 0;
 }
 
-// This problem have Brute Optimal (B O) solutions
+// This problem have Brute and Optimal (B O) solutions
