@@ -81,6 +81,19 @@ int main()
    stack<int>st2;
    st1.swap(st2); // Both stacks swap with each other 
    */
+   /*
+   queue<int>q;
+   q.push(1); // 1
+   q.push(2); // 1 2 
+   q.emplace(5);  // 1 2 5 
+   q.push(7);  // 1 2 5 7 
+
+   q.back() += 8; // 1 2 5 15 
+   q.pop(); // 1 2 5 
+
+   cout << q.front(); // 1 
+   cout << q.back(); // 5
+   */
    
    return 0;
 }
