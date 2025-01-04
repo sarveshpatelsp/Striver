@@ -68,6 +68,19 @@ int main()
    cout << dq.front(); // 3
    // Rest func are same as vector
    */
+   /*
+   stack<int> st;
+   st.push(2); // 2
+   st.push(0); // 0 2
+   st.emplace(1);  // 1 0 2
+   cout << st.top() ; // 1
+
+   st.pop() // 0 2
+   st.size() 
+   cout << st.empty(); // false
+   stack<int>st2;
+   st1.swap(st2); // Both stacks swap with each other 
+   */
    
    return 0;
 }
