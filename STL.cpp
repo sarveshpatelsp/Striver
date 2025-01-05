@@ -94,6 +94,24 @@ int main()
    cout << q.front(); // 1 
    cout << q.back(); // 5
    */
+   /*
+   priority_queue<int>pq;  // Also called Max Heap
+   pq.push(1); // 1
+   pq.push(3); // 3 1 
+   pq.emplace(8); // 8 3 1 
+   pq.push(2); // 8 3 2 1
+
+   cout << pq.top(); // 8
+   pq.pop(); // 3 2 1
+   
+   priority_queue<int , vector<int> , greater<int>> pq; // Min Heap
+   pq.push(2); // 2 
+   pq.push(1); // 1 2 
+   pq.emplace(0); // 0 1 2 
+   pq.push(9); // 0 1 2 9
+   cout << pq.top(); // 0
+   */
+   
    
    return 0;
 }
