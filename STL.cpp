@@ -111,7 +111,27 @@ int main()
    pq.push(9); // 0 1 2 9
    cout << pq.top(); // 0
    */
+   /*
+   set<int>st;
+   st.insert(2); // 2
+   st.insert(2); // 2 
+   st.emplace(2); // 2 
+   st.insert(1); // 1 2 
+   st.insert(8); // 1 2 8
+
+   st.erase(2); // 1 8 
+   auto it = st.find(8); 
+   st.erase(it); // 1 
+
+   int i = st.count(8); // false
+   st.insert(7); // 1 7
+   st.insert(4); // 1 4 7
+
+   auto it1 = st.find(1);
+   auto it2 = st.find(4); 
+   st.erase(it1 , it2); // 7
+   */
    
    
-   return 0;
+   return 0; 
 }
