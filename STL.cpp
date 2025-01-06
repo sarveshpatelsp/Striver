@@ -150,5 +150,25 @@ int main()
    3. It stores unique elements.
       Always TC O(1) except in some time O(N) only once in a blue moon. 
    */
+   /*
+   map<int> mp;  
+   1. It is a {Key, Value} pair. 
+   map<int , pair<int,int>> mp;
+   map<pair<int,int> , int> mp; 
+   mp[1] = 2; 
+   mp.emplace({2,6}); 
+   mp.insert({8 43}); 
+   mp.insert({2,54} , 21); 
+
+   for(auto it : mp)
+      cout << it.first << endl;
+      cout << it.end << endl;
+   auto it = mp.find(2); 
+   cout << *it.second << endl;
+
+   auto it = mp.lower_bound(1);
+   auto it = mp.upper_bound(3); 
+   */
+   
    return 0; 
 }
