@@ -173,6 +173,35 @@ int main()
    Multimap and Unordered Map are same as MAP. 
    Unordered Map TC is O(1) in all cases. Once in a blue moon it is O(N). 
    */
-   
+
+   ALGORITHMS:- 
+
+   sort(a , a+n); 
+   sort(v.begin() , v.end()); 
+   sort(a+2 , a+n); 
+   // all are ascending order sorting above 
+
+   sort(a , a+n , greater<int>); // sorting in descending order
+
+   int maxi = *max_element(a , a+n); // max elem
+   int mini = *mini_element(a , a+n); // min elem
+
+   bool comp(pair<int , int> p1 , pair<int, int> p2)
+   {
+      if(p1.second < p2.second) return true;
+      if(p2.second < p1.second) return false; 
+      if(p1.first < p2.first) return true; 
+      return false; 
+   }
+   sort(a , a+n , comp); // sorting by your own choice using comparator func. 
+
+   int count = __builtin_popcount(); // This will tell no. of set digits in binary conversion. 
+   long long count = __builtin_popcountll(); //For long long numbers. 
+
+   string s = "123"
+   do {
+      cout << s << endl;
+   } while(next_permutation(s.begin() , s.end())); // Next Permutation Code 
+      
    return 0; 
 }
