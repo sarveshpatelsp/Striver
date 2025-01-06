@@ -131,7 +131,24 @@ int main()
    auto it2 = st.find(4); 
    st.erase(it1 , it2); // 7
    */
-   
-   
+   /*
+   multiset<int> ms;
+   ms.insert(2); // 2
+   ms.insert(4); // 2 4 
+   ms.insert(2); // 2 2 4
+   ms.insert(1); // 1 2 2 4
+   ms.emplace(75);  // 1 2 2 4 75
+
+   ms.erase(2); // 1 4 75 It will delete all the 2s
+   ms.erase(ms.find(2)); // 1 2 4 75 It will just delete one 2
+   ms.erase(ms.find(1) , ms.find(1)+2); // 2 4 75 It will delete from range. 
+   */
+   /*
+   unordered_set<int> us; 
+   1. Same as set. 
+   2. It doesnt follow any order. 
+   3. It stores unique elements.
+      Always TC O(1) except in some time O(N) only once in a blue moon. 
+   */
    return 0; 
 }
