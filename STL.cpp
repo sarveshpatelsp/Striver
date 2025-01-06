@@ -169,6 +169,10 @@ int main()
    auto it = mp.lower_bound(1);
    auto it = mp.upper_bound(3); 
    */
+   /*
+   Multimap and Unordered Map are same as MAP. 
+   Unordered Map TC is O(1) in all cases. Once in a blue moon it is O(N). 
+   */
    
    return 0; 
 }
