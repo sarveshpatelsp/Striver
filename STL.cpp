@@ -174,7 +174,8 @@ int main()
    Multimap and Unordered Map are same as MAP. 
    Unordered Map TC is O(1) in all cases. Once in a blue moon it is O(N). 
    */
-
+   
+   /*
    ALGORITHMS:- 
 
    sort(a , a+n); 
@@ -203,6 +204,6 @@ int main()
    do {
       cout << s << endl;
    } while(next_permutation(s.begin() , s.end())); // Next Permutation Code 
-      
+   */
    return 0; 
 }
