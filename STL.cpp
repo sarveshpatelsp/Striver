@@ -16,8 +16,9 @@ STL mainly contains four parts:
 -> 
 */
 
-#include <bits/stdc++.h>
-#include <iostream>
+#include <bits/stdc++.h> // This header file adds all the header files in the program. 
+#include <iostream> // In this header file cin , cout statements are present. 
+
 using namespace std; 
 
 int main()
