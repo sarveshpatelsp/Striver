@@ -20,7 +20,7 @@ STL mainly contains four parts:
 #include <iostream> // In this header file cin , cout statements are present. 
 #include <climits> // In this header files INT_MIN , INT_MAX statements are present. 
 
-using namespace std; 
+using namespace std; // This is use to print and take input in C++. By this we dont have to write std::
 
 int main()
 {
