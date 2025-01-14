@@ -13,3 +13,12 @@ int longestSubarray(vector<int>& arr, int k) {
         }
         return length;
     }
+int main(){
+        vector<int>arr;
+        for(int i = 0 ; i < arr.size() ; i++)
+                cin >> arr[i]; 
+        int k;
+        cin >> k;
+       cout << longestSubarray(arr , k) << endl; 
+    return 0;
+}
