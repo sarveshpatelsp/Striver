@@ -12,3 +12,12 @@ int subarraySum(vector<int>& nums, int k) {
         }
         return count;
     }
+int main(){
+        vector<int>nums;
+        for(int i = 0 ; i < nums.size() ; i++)
+                cin >> nums[i]; 
+        int k;
+        cin >> k;
+        cout << subarraySum(nums , k) << endl;
+    return 0;    
+}
