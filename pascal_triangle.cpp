@@ -16,3 +16,10 @@ vector<int> generateRows(int row) {
             ans.push_back(generateRows(i));
         return ans;
     }
+
+int main(){
+        int n;
+        cin >> n;
+        generate(n); 
+        return 0;
+}
