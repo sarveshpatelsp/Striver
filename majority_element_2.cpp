@@ -14,3 +14,11 @@ vector<int> majorityElement(vector<int>& nums) {
         sort(ans.begin() , ans.end());
         return ans;
     }
+int main()
+{
+   vector<int>arr;
+   for (int i = 0 ; i < arr.size() ; i++)
+   cin >> arr[i]; 
+        majorityElement(arr); 
+   return 0;
+}
