@@ -14,3 +14,12 @@ int searchInsert(vector<int>& nums, int target) {
         }
         return ans;
     }
+int main(){
+        vector<int>arr;
+        for (int i = 0 ; i < arr.size() ; i++)
+                cin >> arr[i];
+        int target; 
+        cin >> target;
+        cout << searchInsert(arr , target) << endl;
+    return 0;
+}
