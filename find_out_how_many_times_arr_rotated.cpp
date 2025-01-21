@@ -16,3 +16,10 @@ int findKRotation(vector<int> &arr) {
         }
         return ans;
     }
+int main(){
+        vector<int>arr;
+        for(int i = 0 ; i < arr.size() ; i++)
+                cin >> arr[i]; 
+        cout << findKRotation(arr) << endl;
+ return 0;
+}
