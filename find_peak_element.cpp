@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 // optimal solution
 int peak_element(vector<int> &arr, int n)
 {
