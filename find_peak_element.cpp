@@ -35,7 +35,5 @@ int main()
     cout << "Index " << peak_element(arr, n);
     return 0;
 }
-
-
 // This problem have brute and optimal solution
 // There can be multiple peak_element , you just have to written any one out of them.
