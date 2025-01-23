@@ -13,3 +13,10 @@
         }
         return ans;
     }
+
+int main(){
+    int n;
+    cin >> n;
+    cout << floorSqrt(n) << endl;
+    return 0;
+}
