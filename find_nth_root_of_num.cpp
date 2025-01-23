@@ -25,3 +25,10 @@
         }
         return -1;
     }
+
+int main(){
+    int n , m;
+    cin >> n >> m;
+    cout << nthroot(n,m) << endl;
+    return 0;
+}
