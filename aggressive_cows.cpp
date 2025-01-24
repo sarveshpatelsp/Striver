@@ -27,3 +27,13 @@ int aggressiveCows(vector<int> &stalls, int k)
     }
     return high;
 }
+
+int main(){
+    vector<int> stalls;
+    for(int i = 0 ; i < stalls.size() ; i++)
+        cin >> stalls[i];
+    int k;
+    cin >> k;
+    cout << aggressiveCows(stalls , k) << endl;
+    return 0;
+}
