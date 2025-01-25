@@ -17,3 +17,12 @@
         }
         return low;
     }
+int main(){
+    vector<int>piles;
+    for(int i = 0 ; i < piles.size() ; i++)
+        cin >> piles[i];
+    int h;
+    cin >> h;
+    cout << minEatingSpeed(piles , h) << endl;
+    return 0;
+}
