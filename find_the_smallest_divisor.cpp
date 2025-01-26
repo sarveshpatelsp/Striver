@@ -17,3 +17,8 @@
         }
         return low;
     }
+int main(){
+    vector<int> nums;
+    for(int i = 0 ; i < nums.size(); i++)
+        cin >> nums[i] ;
+}
