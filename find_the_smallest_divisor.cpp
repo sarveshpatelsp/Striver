@@ -21,4 +21,7 @@ int main(){
     vector<int> nums;
     for(int i = 0 ; i < nums.size(); i++)
         cin >> nums[i] ;
+    int threshold;
+    cin >> threshold;
+    cout << smallestDivisor(nums , threshold) << endl;
 }
