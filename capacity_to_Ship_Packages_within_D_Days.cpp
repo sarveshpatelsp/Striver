@@ -23,3 +23,11 @@
         }
         return low;
     }
+int main(){
+    vector<int> weights;
+    for(int i = 0 ; i < weights.size() ; i++)
+        cin >> weights[i] ;
+    int days;
+    cin >> days;
+    cout << shipWithinDays(weights , days) << endl;
+}
