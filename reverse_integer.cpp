@@ -1,4 +1,3 @@
-#include <iostream>
 int reverse(int x)
 {
     long reverse = 0;
