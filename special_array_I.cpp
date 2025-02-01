@@ -7,3 +7,6 @@
                 return false;
         return true;
     }
+int main(){
+    return 0;
+}
