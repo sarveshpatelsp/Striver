@@ -8,5 +8,8 @@
         return true;
     }
 int main(){
+    vector<int>nums;
+    for(int i = 0 ; i < nums.size() ; i++)
+        cin >> nums[i];
     return 0;
 }
