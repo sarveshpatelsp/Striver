@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-using namespace std;
 
 bool binary_search(vector<int> &arr, int n, int target)
 {
