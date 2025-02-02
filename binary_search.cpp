@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-
 bool binary_search(vector<int> &arr, int n, int target)
 {
     int low = 0;
