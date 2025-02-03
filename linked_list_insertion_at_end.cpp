@@ -10,3 +10,7 @@
         temp->next = newNode;
         return head;
     }
+int main(){
+    
+    return 0;
+}
