@@ -11,3 +11,8 @@
         }
         return maxSum;
     }
+int main(){
+    vector<int>nums;
+    cout << maxAscendingSum(nums) << endl;
+    return 0;
+}
