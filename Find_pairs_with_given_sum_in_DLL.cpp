@@ -30,6 +30,6 @@ int main(){
     Node* head = NULL;
     int target;
     cin >> target;
-    
+    findPairsWithGivenSum(head , target);
     return 0;
 }
