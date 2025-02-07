@@ -26,3 +26,10 @@
        }
        return ans;
     }
+int main(){
+    Node* head = NULL;
+    int target;
+    cin >> target;
+    
+    return 0;
+}
