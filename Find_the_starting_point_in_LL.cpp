@@ -16,5 +16,7 @@
         return NULL;
     }
 int main(){
+    ListNode* head = NULL;
+    detectCycle(head);
     return 0;
 }
