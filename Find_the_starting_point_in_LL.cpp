@@ -15,3 +15,6 @@
         }
         return NULL;
     }
+int main(){
+    return 0;
+}
