@@ -31,3 +31,6 @@
         reverseLL(newHead);
         return true;
     }
+int main(){
+    return 0;
+}
