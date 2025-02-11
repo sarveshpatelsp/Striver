@@ -33,6 +33,6 @@
     }
 int main(){
     ListNode* head = NULL;
-    
+    isPalindrome(head); 
     return 0;
 }
