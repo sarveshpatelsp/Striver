@@ -18,5 +18,6 @@
     }
 int main(){
     ListNode* head = NULL;
+    oddEvenList(head);
     return 0;
 }
