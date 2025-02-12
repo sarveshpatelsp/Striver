@@ -16,3 +16,6 @@
         odd->next = evenHead;
         return head;
     }
+int main(){
+    return 0;
+}
