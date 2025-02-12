@@ -17,5 +17,6 @@
         return head;
     }
 int main(){
+    ListNode* head = NULL;
     return 0;
 }
