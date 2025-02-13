@@ -15,5 +15,7 @@
         return head;
     }
 int main(){
+    ListNode* head = NULL;
+    removeNthFromEnd(head); 
     return 0;
 }
