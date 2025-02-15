@@ -14,3 +14,6 @@
         delete(delNode);
         return head;
     }
+int main(){
+    return 0;
+}
