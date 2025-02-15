@@ -16,6 +16,6 @@
     }
 int main(){
     Node* head = NULL;
-    
+    deleteMiddle(head);
     return 0;
 }
