@@ -17,6 +17,6 @@
     }
 int main(){
     ListNode* head = NULL;
-    
+    getIntersectionNode(head); 
     return 0;
 }
