@@ -16,6 +16,7 @@
         return temp1;
     }
 int main(){
+    ListNode* head = NULL;
     
     return 0;
 }
