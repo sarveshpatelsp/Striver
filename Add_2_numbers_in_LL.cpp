@@ -28,3 +28,6 @@
 
         return dummy->next;
     }
+int main(){
+    return 0;
+}
