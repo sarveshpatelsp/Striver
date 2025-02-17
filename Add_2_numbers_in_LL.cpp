@@ -29,7 +29,8 @@
         return dummy->next;
     }
 int main(){
-    ListNode* head = NULL;
-    
+    ListNode* l1 = NULL;
+    ListNode* l2 = NULL;
+    addTwoNumbers(l1 , l2);
     return 0;
 }
