@@ -27,4 +27,3 @@ int main()
 }
 
 // This problem have only Optimal solution
-// Apply this only when you have sorted array 
