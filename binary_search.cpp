@@ -25,5 +25,3 @@ int main()
     cout << binary_search(arr, n, target);
     return 0;
 }
-
-// This problem have only Optimal solution
