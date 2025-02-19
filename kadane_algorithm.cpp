@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
 
 int kadane(int arr[], int n)
 {
