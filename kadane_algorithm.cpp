@@ -1,4 +1,3 @@
-
 int kadane(int arr[], int n)
 {
     int maxi = INT_MIN;
